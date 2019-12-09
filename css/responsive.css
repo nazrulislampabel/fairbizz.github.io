@@ -1,0 +1,194 @@
+ /*Laptop:1200px*/
+ @media (min-width: 1200px)and (max-width: 1500px) {
+
+ }
+ /*LG :992px*/
+ @media (min-width: 992px)and (max-width: 1200px) {
+
+     .slider-content h2 {
+         font-size: 50px;
+     }
+     .slider-height{
+         min-height: 550px;
+     }
+     .slider-content p{
+         font-size: 13px;
+     }
+
+     .case-blog h3 {
+        font-size: 18px;
+     }
+
+
+     .consultation-form {
+         padding: 40px;
+     }
+
+     .consultation-form input {
+         width: 370px;
+     }
+
+     .nice-select{
+         width: 370px;
+     }
+
+     .consultation-form textarea {
+         width: 370px;
+     }
+
+     .consultation-form button {
+         width: 200px;
+     }
+
+     .single-testimonial p {
+         font-size: 22px;
+     }
+
+     .faq-area img {
+         margin-left: 0;
+         width: 100%;
+     }
+ }
+
+ /*MD :768px*/
+ @media (min-width: 768px)and (max-width: 991px) {
+     .single-cta {
+         margin-left: 30px
+     }
+     .main-menu ul li {
+         margin-right: 20px;
+     }
+     .main-menu ul li a {
+         font-size: 14px;
+     }
+
+     .slider-height{
+         min-height: 450px;
+     }
+
+     .slider-content h2 {
+         font-size: 62px;
+     }
+
+     .slider-content p {
+         font-size: 13px;
+     }
+     .single-testimonial p {
+         font-size: 25px;
+     }
+
+     .consultation-form {
+         padding: 130px;
+         margin: 0;
+     }
+     .footer-menu ul li {
+         margin-left: 10px;
+     }
+
+ }
+ /*XS :320px*/
+ @media (max-width: 767px){
+     .header-cta:first-child{
+         margin-left: 0;
+     }
+     .single-cta {
+         float: left;
+         margin-left: 40px;
+     }
+
+     .menu-area {
+         margin-bottom: -70px;
+     }
+
+     .mean-container a.meanmenu-reveal {
+         border: 1px solid #007bff;
+         color: #040404;
+         margin-top: -38px;
+     }
+
+     .main {
+         position: relative;
+         top: 70px;
+     }
+
+     .mean-container a.meanmenu-reveal span {
+         background: #08237e none repeat scroll 0 0;
+     }
+
+         .menu-area .theme-bg {
+             background: none;
+         }
+     .mean-container .mean-nav {
+         background: #ffffff none repeat scroll 0 0;
+     }
+     .menu-area .theme-bg{
+         padding: 0;
+     }
+
+     .mean-container .mean-nav ul li a {
+         color: #000;
+         padding: 5px 0;
+         font-size: 20px;
+     }
+
+     .mean-container .mean-nav ul li a.mean-expand:hover {
+         background: rgb(255, 255, 255);
+     }
+
+     .slider-content h2 {
+         font-size: 36px;
+     }
+     .slider-content p {
+         font-size: 10px;
+     }
+
+
+     .slider-height {
+         min-height: 300px;
+     }
+
+     .section-title h2 {
+     font-size: 30px
+     }
+
+     .section-title h4 {
+         font-size: 18px;
+     }
+
+     .features-description p {
+         font-size: 14px;
+     }
+
+     .single-testimonial p {
+         font-size: 22px;
+     }
+
+
+     .consultation-form {
+         padding: 40px;
+     }
+     .copyright-area .copyright {
+         text-align: center;
+     }
+     .copyright p {
+         font-size: 14px;
+         margin: 5px 0;
+     }
+
+     .footer-area{
+         padding-bottom: 0;
+     }
+
+     .footer-menu {
+         text-align: center;
+     }
+
+     .footer-menu ul li {
+         font-size: 14px;
+     }
+ }
+
+ /*SM :550px*/
+ @media only screen and (min-width: 550px) and (min-width: 767px){
+
+ }
