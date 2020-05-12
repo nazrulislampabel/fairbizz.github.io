@@ -20,7 +20,7 @@
             doAnimations($animatingElements);
         });
         BasicSlider.slick({
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 10000,
             dots: true,
             fade: true,
@@ -193,8 +193,8 @@
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll:2
                 }
             }
             // You can unslick at a given breakpoint now by adding:

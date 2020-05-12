@@ -657,12 +657,11 @@
 
 .z-index{
 	position: relative;
-	z-index: 100000;
+	z-index: 99;
 }
 /* black overlay */
 [data-overlay] {
 	position: relative;
-
 }
 [data-overlay]::before {
 	background: #000 none repeat scroll 0 0;
@@ -672,7 +671,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	z-index: 50;
+	z-index: 1;
 }
 [data-overlay="3"]::before {
 	opacity: 0.3;

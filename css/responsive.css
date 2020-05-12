@@ -52,6 +52,47 @@
 
  /*MD :768px*/
  @media (min-width: 768px)and (max-width: 991px) {
+
+     .menu-area {
+         margin-bottom: -70px;
+     }
+
+     .mean-container a.meanmenu-reveal {
+         border: 1px solid #007bff;
+         color: #040404;
+         margin-top: -60px;
+     }
+
+     .main {
+         position: relative;
+         top: 70px;
+     }
+
+     .mean-container a.meanmenu-reveal span {
+         background: #08237e none repeat scroll 0 0;
+     }
+
+     .menu-area .theme-bg {
+         background: none;
+     }
+     .mean-container .mean-nav {
+         background: #ffffff none repeat scroll 0 0;
+     }
+     .menu-area .theme-bg{
+         padding: 0;
+     }
+
+     .mean-container .mean-nav ul li a {
+         color: #000;
+         padding: 5px 0;
+         font-size: 20px;
+     }
+
+     .mean-container .mean-nav ul li a.mean-expand:hover {
+         background: rgb(255, 255, 255);
+     }
+
+
      .single-cta {
          margin-left: 30px
      }
@@ -87,7 +128,7 @@
 
  }
  /*XS :320px*/
- @media (max-width: 767px){
+ @media (max-width: 767px) {
      .header-cta:first-child{
          margin-left: 0;
      }
@@ -103,7 +144,7 @@
      .mean-container a.meanmenu-reveal {
          border: 1px solid #007bff;
          color: #040404;
-         margin-top: -38px;
+         margin-top: -60px;
      }
 
      .main {
@@ -139,20 +180,30 @@
          font-size: 36px;
      }
      .slider-content p {
-         font-size: 10px;
+         font-size: 13px;
      }
 
 
      .slider-height {
-         min-height: 300px;
+         min-height: 500px;
      }
 
      .section-title h2 {
      font-size: 30px
      }
-
+     .service {
+         padding: 20px 0;
+     }
      .section-title h4 {
          font-size: 18px;
+     }
+     .single-testimonial {
+         padding-top: 0;
+         padding-bottom: 50px;
+     }
+
+     .testimonial .slick-arrow{
+     margin: 0 auto;
      }
 
      .features-description p {
@@ -162,10 +213,31 @@
      .single-testimonial p {
          font-size: 22px;
      }
-
+     .video-wrapper h2 {
+         font-size: 20px;
+     }
+     .btn,.video-popup{
+         font-size: 10px;
+     }
 
      .consultation-form {
          padding: 40px;
+     }
+
+     .consultation-form h3 {
+         font-size: 25px;
+     }
+
+     .consultation-form input ,.consultation-form textarea ,.consultation-form button ,.nice-select {
+         width: 100%;
+     }
+
+     .faq-wrapper .card-header h2 a {
+         font-size: 10px;
+     }
+
+     .faq-wrapper .card-body p{
+         font-size: 8px;
      }
      .copyright-area .copyright {
          text-align: center;

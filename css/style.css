@@ -94,8 +94,7 @@ h6 {
     color: #313131;
     margin-top: 0px;
     font-style: normal;
-    font-weight: 400;
-    text-transform: normal;
+    text-transform: inherit;
 }
 
 h1 a,
@@ -782,7 +781,7 @@ label {
 .faq-wrapper .card-header h2 a:after {
     position: absolute;
     content: "\f068";
-    top: 10px;
+    top: 20px;
     right: 15px;
     font-size: 12px;
     font-family: "Font Awesome 5 Free";
